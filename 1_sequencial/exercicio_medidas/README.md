@@ -44,7 +44,9 @@ C = 4
 
 **Saída:**  
 ÁREA DO QUADRADO = 25.0000
+
 ÁREA DO TRIÂNGULO = 7.5000
+
 ÁREA DO TRAPÉZIO = 16.0000
 
 > Passo a passo dos cálculos:  
