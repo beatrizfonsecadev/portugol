@@ -2,10 +2,10 @@
 
 Repositório com exercícios de lógica de programação em **Portugol/VisualG**, organizados por tipo de estrutura:
 
-1_sequencial 🟢
-2_condicional 🔵
-3_repetitiva 🔄
-4_funcoes ⚙️
+- `1_sequencial/` 🟢
+- `2_condicional/` 🔵
+- `3_repetitiva/` 🔄
+- `4_funcoes/` ⚙️
 
 Cada pasta contém exercícios individuais, cada um com README explicando o algoritmo e seu funcionamento.
 
