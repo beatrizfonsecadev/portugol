@@ -14,6 +14,7 @@ O objetivo é praticar **entrada de dados, cálculos aritméticos e exibição d
 ## 💡 Exemplo de Uso
 **Entrada:** 
 7322
+
 **Saída:** 
 Tempo equivalente: 2: 2: 2
 
