@@ -39,7 +39,9 @@ areaTrapezio = ((a + b) * c) / 2
 
 **Entrada:**  
 A = 5
+
 B = 3
+
 C = 4
 
 **Saída:**  
