@@ -1,61 +1,52 @@
 # 🧮 Algoritmo de Bhaskara (VisualG)
 
-Este projeto implementa o cálculo das raízes reais de uma equação do segundo grau utilizando o método de Bhaskara, desenvolvido em **VisualG** para fins de estudo de lógica de programação.
+Este projeto implementa o cálculo das raízes reais de uma equação do segundo grau utilizando o método de **Bhaskara**, desenvolvido em **VisualG** para fins de estudo de lógica de programação.
 
-
+---
 
 ## 📘 Descrição
 
 O algoritmo solicita ao usuário os coeficientes **a**, **b** e **c** de uma equação do tipo:
+ax² + bx + c = 0
 
-\[
-ax^2 + bx + c = 0
-\]
+Em seguida, calcula o **delta (Δ)** e determina as raízes reais **x₁** e **x₂**, exibindo mensagens adequadas quando a equação não possui raízes reais ou quando o coeficiente **a** é igual a zero (deixando de ser uma equação do 2º grau).
 
-Em seguida, realiza o cálculo do **delta (Δ)** e determina as raízes reais **x₁** e **x₂**, exibindo mensagens apropriadas quando a equação não possui raízes reais ou quando o coeficiente **a** é igual a zero (deixando de ser uma equação do 2º grau).
-
-
+---
 
 ## ⚙️ Funcionalidades
 
 - Leitura dos coeficientes `a`, `b` e `c`;  
 - Cálculo do discriminante (**Δ**);  
-- Validação de casos sem solução real (`Δ < 0`);  
+- Verificação de casos sem solução real (`Δ < 0`);  
 - Cálculo das raízes reais, quando existentes;  
 - Tratamento para o caso `a = 0`;  
 - Exibição dos resultados com formatação numérica.
 
-
+---
 
 ## 💡 Fórmulas utilizadas
 
-\[
-\Delta = b^2 - 4ac
-\]
+Delta (Δ) = b² - 4ac
+x₁ = (-b + √Δ) / (2a)
+x₂ = (-b - √Δ) / (2a)
 
-\[
-x_1 = \frac{-b + \sqrt{\Delta}}{2a}
-\quad\quad
-x_2 = \frac{-b - \sqrt{\Delta}}{2a}
-\]
-
-
+---
 
 ## 🧰 Requisitos
 
-- **VisualG** instalado  
+- Ter o **VisualG** instalado.  
   👉 [Baixar VisualG](https://visualg3.com.br/)
 
-
+---
 
 ## ▶️ Como executar
 
 1. Abra o VisualG.  
 2. Crie um novo arquivo e copie o código do algoritmo.  
-3. Execute com **F9**.  
+3. Execute o programa com **F9**.  
 4. Insira os valores de `a`, `b` e `c` quando solicitado.
 
-
+---
 
 ## 🧩 Exemplo de execução
 
@@ -68,7 +59,7 @@ Informe o coeficiente c: 2
 X1 = 2.0000
 X2 = 1.0000
 
-
+---
 
 ## 👩🏻‍💻 Autora
 
