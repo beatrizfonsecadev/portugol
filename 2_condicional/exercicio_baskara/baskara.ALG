@@ -1,4 +1,4 @@
-Algoritmo "Baskara"
+Algoritmo "Bhaskara"
 Var
    a, b, c, x1, x2, delta: real
 Inicio
@@ -14,10 +14,10 @@ Inicio
    delta <- Exp(b, 2) - (4 * a * c)
 
    se (a = 0) entao
-      escreval("O valor de 'a' não pode ser zero. Não é uma equação do 2º grau.")
+      escreval("O valor de 'a' nÃ£o pode ser zero. NÃ£o Ã© uma equaÃ§Ã£o do 2Âº grau.")
    senao
       se (delta < 0) entao
-         escreval("A equação não possui raízes reais (delta < 0).")
+         escreval("A equaÃ§Ã£o nÃ£o possui raÃ­zes reais (delta < 0).")
       senao
          x1 <- (-b + raizq(delta)) / (2 * a)
          x2 <- (-b - raizq(delta)) / (2 * a)
@@ -27,4 +27,5 @@ Inicio
          escreval("X2 = ", x2:6:4)
       fimse
    fimse
+
 Fimalgoritmo
