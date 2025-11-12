@@ -27,36 +27,28 @@ Em seguida, calcula o **delta (Δ)** e determina as raízes reais **x₁** e **x
 ## 💡 Fórmulas utilizadas
 
 Delta (Δ) = b² - 4ac
+
 x₁ = (-b + √Δ) / (2a)
+
 x₂ = (-b - √Δ) / (2a)
-
----
-
-## 🧰 Requisitos
-
-- Ter o **VisualG** instalado.  
-  👉 [Baixar VisualG](https://visualg3.com.br/)
-
----
-
-## ▶️ Como executar
-
-1. Abra o VisualG.  
-2. Crie um novo arquivo e copie o código do algoritmo.  
-3. Execute o programa com **F9**.  
-4. Insira os valores de `a`, `b` e `c` quando solicitado.
 
 ---
 
 ## 🧩 Exemplo de execução
 
-=== Cálculo das raízes de uma equação do 2º grau ===
+Cálculo das raízes de uma equação do 2º grau
+
 Informe o coeficiente a: 1
+
 Informe o coeficiente b: -3
+
 Informe o coeficiente c: 2
 
+
 Δ (delta) = 1.0000
+
 X1 = 2.0000
+
 X2 = 1.0000
 
 ---
